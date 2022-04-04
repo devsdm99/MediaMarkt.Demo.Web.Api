@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaMarkt.Web.Demo.Api", "MediaMarkt.Web.Demo.Api\MediaMarkt.Web.Demo.Api.csproj", "{7267FD4C-C555-4E13-81F9-92B95D840DBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. API", "1. API", "{67F1168F-CFFD-47D7-B41A-CCAE9FA884C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Services", "2. Services", "{473585C0-F9D2-4B08-A3F0-AB17ABE3BBF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Data", "3. Data", "{D1530C26-5306-4FF0-B687-9E933295A6E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaMarkt.Web.Demo.Services", "MediaMarkt.Web.Demo.Services\MediaMarkt.Web.Demo.Services.csproj", "{E7F76F43-3BC0-4BBA-83C6-7812F691DF2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaMarkt.Web.Demo.Data", "MediaMarkt.Web.Demo.Data\MediaMarkt.Web.Demo.Data.csproj", "{0F6DB92C-46A9-44CF-985C-AD5FDA6633AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Test", "4. Test", "{35C3E2A1-E801-484F-B764-12B4BAF40FF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaMarkt.Web.Demo.Test", "MediaMarkt.Web.Demo.Test\MediaMarkt.Web.Demo.Test.csproj", "{B62C23C0-B18B-4569-B6D5-348276AF313A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7267FD4C-C555-4E13-81F9-92B95D840DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7267FD4C-C555-4E13-81F9-92B95D840DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7267FD4C-C555-4E13-81F9-92B95D840DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7267FD4C-C555-4E13-81F9-92B95D840DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F76F43-3BC0-4BBA-83C6-7812F691DF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F76F43-3BC0-4BBA-83C6-7812F691DF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F76F43-3BC0-4BBA-83C6-7812F691DF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F76F43-3BC0-4BBA-83C6-7812F691DF2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F6DB92C-46A9-44CF-985C-AD5FDA6633AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F6DB92C-46A9-44CF-985C-AD5FDA6633AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F6DB92C-46A9-44CF-985C-AD5FDA6633AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F6DB92C-46A9-44CF-985C-AD5FDA6633AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B62C23C0-B18B-4569-B6D5-348276AF313A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B62C23C0-B18B-4569-B6D5-348276AF313A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B62C23C0-B18B-4569-B6D5-348276AF313A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B62C23C0-B18B-4569-B6D5-348276AF313A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7267FD4C-C555-4E13-81F9-92B95D840DBF} = {67F1168F-CFFD-47D7-B41A-CCAE9FA884C5}
+		{E7F76F43-3BC0-4BBA-83C6-7812F691DF2A} = {473585C0-F9D2-4B08-A3F0-AB17ABE3BBF8}
+		{0F6DB92C-46A9-44CF-985C-AD5FDA6633AD} = {D1530C26-5306-4FF0-B687-9E933295A6E6}
+		{B62C23C0-B18B-4569-B6D5-348276AF313A} = {35C3E2A1-E801-484F-B764-12B4BAF40FF1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9EA238DF-E7D4-498E-BF72-E1D1415AFAFD}
+	EndGlobalSection
+EndGlobal
